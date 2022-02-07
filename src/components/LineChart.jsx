@@ -20,7 +20,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
   const data = {
     labels: coinTimestamp,
     datasets: [
-      {
+      { 
         label: 'Price In USD',
         data: coinPrice,
         fill: false,
